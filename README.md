@@ -1,7 +1,9 @@
 # MVP---Engenharia-de-Dados-Brasil-em-Movimento-Futebol-PIB-e-as-Rotas-da-Migra-o-Interna
 
 
- Objetivo: Este trabalho tem como função apresentar fatores socioeconômicos que podem servir como indicadores para a formulação de políticas públicas mais eficazes, com foco na promoção de maior equidade no desenvolvimento entre os estados brasileiros. A proposta é mitigar as desigualdades regionais.
+*** Objetivo:***
+ ---
+ Este trabalho tem como função apresentar fatores socioeconômicos que podem servir como indicadores para a formulação de políticas públicas mais eficazes, com foco na promoção de maior equidade no desenvolvimento entre os estados brasileiros. A proposta é mitigar as desigualdades regionais.
  
  A partir de dados públicos entre os anos de 2012 e 2024 — como Produto Interno Bruto (PIB) estadual, número de nascimentos e óbitos, população residente e número de pessoas empregadas com 15 anos ou mais, o projeto busca compreender como esses fatores se relacionam com o crescimento e a movimentação interna da população brasileira, especialmente com foco na migração dos responsáveis familiares.
 
@@ -13,11 +15,11 @@
 
 Este documento descreve o pipeline de ingestão de dados do projeto, incluindo:
 
->Transformações aplicadas
+- Transformações aplicadas
 
->Estrutura de armazenamento no Databricks
+- Estrutura de armazenamento no Databricks
 
->Controles de qualidade
+- Controles de qualidade
 
 
 
