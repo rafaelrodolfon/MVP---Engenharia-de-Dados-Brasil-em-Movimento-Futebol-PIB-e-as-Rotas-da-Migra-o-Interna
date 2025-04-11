@@ -84,7 +84,7 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 #### 2.1 Catálogo de Dados
 ---
 
-##### 2.1.1 Camada BRONZE
+#### 2.1.1 Camada BRONZE
 
 | Tabela       | Campo       | Tipo    | Descrição                                        |
 |--------------|-------------|---------|--------------------------------------------------|
