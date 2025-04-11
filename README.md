@@ -144,7 +144,7 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 | **T_ESTADO_ANO**| SIGLA        | STRING  | Sigla da UF (2 letras)                         |
 | **SIGLAS_ESTADO**| ESTADO      | STRING  | Nome completo do estado                        |
 | **SIGLAS_ESTADO**| SIGLA       | STRING  | Sigla oficial (ex: SP, RJ)                     |
-
+| **SIGLAS_ESTADO**| REGIAO       | STRING  | Região (Nordestes, Norte)                     |
 
 
 
