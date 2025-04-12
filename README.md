@@ -198,4 +198,8 @@ Para responder esta pergunta, criei um sistema de pontuação que:
 ![newplot (1)](https://github.com/user-attachments/assets/d14fd9af-5c4f-4b3e-8483-969c8ff373bf)
 
 
+![newplot (2)](https://github.com/user-attachments/assets/b45e7d39-8f3a-4fd6-bbd2-45b3088bb872)
+
+
+
 
