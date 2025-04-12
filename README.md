@@ -248,3 +248,62 @@ Fator	Explicação	Solução
 Efeito de Agregação Regional	Diferentes tamanhos de economia distorcem a escala	Usar escala logarítmica
 Outliers Extremos	Sudeste domina absoluto (75% dos pontos)	Separar por regiões
 
+
+**Como os padrões de migração interestadual variam entre as regiões brasileiras e quais estados se destacam como principais polos atratores ou emissores de população?**
+
+# Análise do Ranking de Migração Interestadual no Brasil
+
+## 📌 Principais Achados do Ranking
+
+### 🏆 Top 5 Estados com Menor Êxodo
+| Estado | Saldo Migratório Médio | % População Perdida/Ano | Anos como Atrator |
+|--------|------------------------|-------------------------|-------------------|
+| Roraima | -13.5 mil | 3.34% | 1 |
+| Amapá | -26.3 mil | 3.41% | 0 |
+| Acre | -30.8 mil | 3.81% | 0 |
+| Tocantins | -43.7 mil | 2.89% | 0 |
+| Rondônia | -47.7 mil | 3.51% | 1 |
+
+### 🔻 5 Estados com Maior Êxodo
+| Estado | Saldo Migratório Médio | % População Perdida/Ano | Anos como Atrator |
+|--------|------------------------|-------------------------|-------------------|
+| Bahia | -353.7 mil | 2.88% | 1 |
+| Minas Gerais | -305.5 mil | 1.68% | 1 |
+| São Paulo | -652.1 mil | 1.66% | 1 |
+| Maranhão | -263.3 mil | 3.81% | 0 |
+| Pará | -261.5 mil | 3.19% | 0 |
+
+
+
+![newplot (7)](https://github.com/user-attachments/assets/b7816142-1c5f-4c49-b930-9ae803aca158)
+
+## 📌 Principais Achados Contraintuitivos
+
+**Padrão Inverso ao Esperado:**  
+✔️ **Sudeste** lidera em PERDAS populacionais (-152,4 mil em média)  
+✔️ **Norte/Centro-Oeste** apresentam menores perdas (-28,9 mil e -12,3 mil respectivamente)  
+✔️ **São Paulo** é o maior emissor (-652k), enquanto **Roraima** teve menor êxodo  
+
+ Sudeste como Emissor
+✖️ Custo de Vida Explosivo (SP: 40% mais caro que média nacional)
+
+✖️ Desindustrialização (-12% empregos industriais 2012-2016)
+
+➡️ Migração para cidades médias de outras regiões
+
+Resiliência do Norte/Centro-Oeste
+✔️ Boom do Agronegócio (+18% empregos formais)
+
+### 7 Conclusão 
+---
+Ao longo deste projeto, enfrentei desafios significativos e descobri padrões inesperados que reformularam minha compreensão sobre a dinâmica migratória brasileira e sua relação com indicadores econômicos e esportivos.
+
+Aprendi que os dados frequentemente contradizem nossas expectativas iniciais. A surpresa maior foi constatar que os tradicionais polos industriais do Sudeste, especialmente São Paulo, estão enfrentando um êxodo populacional acelerado, enquanto regiões como o Norte e Centro-Oeste, que eu imaginava como áreas de forte emigração, mostraram uma resiliência impressionante. Essa descoberta me fez questionar muitos dos pressupostos convencionais sobre desenvolvimento regional no Brasil.
+
+Quanto à relação entre futebol e economia, os resultados foram mais complexos do que antecipei. Encontrei correlações altas (em torno de 0.) que sugerem uma relação existente, porém não ficarm tão claras no grafico diferente do que eu imaginava inicialmente. Isso me levou a considerar variáveis intermediárias, como investimento em infraestrutura esportiva e políticas públicas locais, que podem mediar essa relação.
+
+As dificuldades técnicas foram parte importante do processo de aprendizagem. Ao trabalhar com o Databricks, precisei superar uma curva de aprendizado íngreme - desde a configuração inicial dos clusters até a otimização das consultas Spark. Com o GitHub, o desafio foi estabelecer um fluxo de trabalho eficiente para versionamento em um projeto de análise de dados. E com o Plotly, descobri que criar visualizações verdadeiramente eficazes exige muito mais do que simplesmente plotar gráficos - envolve um cuidadoso trabalho de seleção de cores, hierarquia visual e design de informação.
+
+
+O projeto me mostrou como a análise de dados vai além de simplesmente executar códigos e fórmulas. Requer uma constante postura crítica, capacidade de questionar pressupostos e flexibilidade para adaptar abordagens quando os dados revelam padrões inesperados. A principal lição que levo é que os números por si só não contam a história completa - cabe ao analista interpretá-los dentro de um contexto social, econômico e histórico mais amplo.
+
