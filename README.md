@@ -174,6 +174,28 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 
 
 
+# Análise do Desempenho dos Estados no Campeonato Brasileiro
+
+## Pergunta de Pesquisa
+**Como evoluiu o desempenho dos estados brasileiros no Campeonato Brasileiro (considerando Séries A e B) ao longo dos anos, considerando não apenas a quantidade de times mas também suas posições finais?**
+
+## Metodologia
+Para responder esta pergunta, criei um sistema de pontuação que:
+- Atribui mais pontos para times nas melhores posições
+- Dá peso maior para a Série A (6x) que para a Série B (1x)
+- Calcula métricas adicionais como quantidade de clubes e média por clube
+
+> Obtive o grafico mostrando as posições por estado ao longo dos anos
+### Tendências Dominantes
+1. **Hegemonia Paulista**:
+   - São Paulo mantém liderança constante
+   - Exemplo: Em 2022, pontuação bem maior que o segundo colocado
+
+2.  **Declínio Relativo**:
+   - Rio de Janeiro perde participação relativa
+   - Queda de total entre 2010-2021
+
+![newplot (1)](https://github.com/user-attachments/assets/d14fd9af-5c4f-4b3e-8483-969c8ff373bf)
 
 
 
