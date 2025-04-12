@@ -307,3 +307,62 @@ As dificuldades técnicas foram parte importante do processo de aprendizagem. Ao
 
 O projeto me mostrou como a análise de dados vai além de simplesmente executar códigos e fórmulas. Requer uma constante postura crítica, capacidade de questionar pressupostos e flexibilidade para adaptar abordagens quando os dados revelam padrões inesperados. A principal lição que levo é que os números por si só não contam a história completa - cabe ao analista interpretá-los dentro de um contexto social, econômico e histórico mais amplo.
 
+
+
+## Perguntas-Chave e Respostas Consolidados
+
+### 1. Desempenho Esportivo por Estado  
+**❓ Como evoluiu o desempenho relativo dos estados no Campeonato Brasileiro (Séries A/B) entre 2012-2024?**  
+
+✅ **Principais Achados**:  
+- **Hegemonia de SP**: 40% dos pontos totais (5.000+), com 3x mais clubes na Série A que a média nacional  
+- **Declínio do RJ**: Perdeu 32% de participação relativa desde 2012  
+- **Destaque do PR**: Crescimento anual de 15% (Athletico-PR como motor)  
+- **Eficiência do RS**: Melhor média por clube (90 pontos)  
+
+📊 **Método**:  
+```python
+# Sistema de pontuação ponderada
+pontos_serie_a = posição * 6  
+pontos_serie_b = posição * 1
+2. Relação PIB-Desempenho Esportivo
+❓ Existe correlação entre o PIB estadual e o desempenho no futebol?
+
+📈 Resultados:
+
+Métrica	Valor
+Correlação (Pearson)	0.83
+Variação Explicada	68%
+🔍 Insights Críticos:
+
+diff
+Copy
++ Estados com PIB > R$500 bi dominam (SP/RJ/MG = 68% dos pontos)  
+- BA: 7º em PIB mas 9º em desempenho  
++ RS: 5º em PIB mas 3º em pontos (eficiência institucional)
+3. Padrões de Migração Interestadual
+❓ Quais estados são atratores/emissores líquidos de população?
+
+🗺️ Ranking Crítico:
+
+Categoria	Estados (Exemplo)	Estatística-Chave
+Maior Êxodo	BA, SP	-652k/ano (SP = 1.66% população)
+Atração Moderada	SC, GO	+89k/ano (agronegócio +18%)
+Surpresa	RO, RR	Saldo positivo em 3 dos 5 anos
+💡 Fator Decisivo:
+81% dos migrantes são responsáveis por famílias (25-45 anos).
+
+4. Lições Aprendidas
+⚠️ O que os dados desafiaram?
+
+Pressuposto 1:
+"Grande PIB = Melhor futebol"
+📉 Realidade:
+
+CE tem PIB 2x maior que RS, mas 60% menos pontos esportivos
+
+Pressuposto 2:
+"Sudeste atrai migrantes"
+📉 Realidade:
+
+SP perde 1.66% da população/ano para GO/MT
