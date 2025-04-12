@@ -368,10 +368,9 @@ pontos_serie_b = posição * 1
 Métrica	Valor
 Correlação (Pearson)	0.83
 Variação Explicada	68%
+
 🔍 Insights Críticos:
 
-diff
-Copy
 + Estados com PIB > R$500 bi dominam (SP/RJ/MG = 68% dos pontos)  
 - BA: 7º em PIB mas 9º em desempenho  
 + RS: 5º em PIB mas 3º em pontos (eficiência institucional)
@@ -396,7 +395,7 @@ Pressuposto 1:
 
 CE tem PIB 2x maior que RS, mas 60% menos pontos esportivos
 
-Pressuposto 2:
+Pressuposto :
 "Sudeste atrai migrantes"
 📉 Realidade:
 
