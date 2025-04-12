@@ -173,6 +173,41 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 | **OBITOS**    | ESTADO_CIVIL| STRING | Estado civil do falecido                      |
 
 
+#### 2.1.3 Camada GOLD
+
+| Tabela                     | Campo                | Tipo    | Descrição                                                                 |
+|----------------------------|----------------------|---------|---------------------------------------------------------------------------|
+| **PONTUACAO_ESTADOS**      | ANO                  | INT     | Ano de referência do campeonato                                          |
+| **PONTUACAO_ESTADOS**      | ESTADO               | STRING  | Sigla da Unidade da Federação (2 caracteres)                             |
+| **PONTUACAO_ESTADOS**      | PONTUACAO_TOTAL      | FLOAT   | Soma de pontos ponderados (Série A=6x, Série B=1x)                       |
+| **PONTUACAO_ESTADOS**      | QTD_CLUBES           | INT     | Número total de clubes no estado                                         |
+| **PONTUACAO_ESTADOS**      | QTD_SERIE_A          | INT     | Quantidade de clubes na Série A                                          |
+| **PONTUACAO_ESTADOS**      | MELHOR_POSICAO_A     | INT     | Melhor colocação na Série A (1-20)                                       |
+| **PONTUACAO_ESTADOS**      | MEDIA_PONTOS_POR_CLUBE | FLOAT | Média de pontos por clube (PONTUACAO_TOTAL/QTD_CLUBES)                  |
+| **RANKING_ESTADOS**        | ANO                  | INT     | Ano de referência                                                        |
+| **RANKING_ESTADOS**        | ESTADO               | STRING  | Nome completo do estado                                                  |
+| **RANKING_ESTADOS**        | PONTUACAO_TOTAL      | FLOAT   | Pontuação não-ponderada (20 - (POSICAO-1))                               |
+| **RANKING_ESTADOS**        | MELHOR_POSICAO       | INT     | Melhor colocação independente da série                                   |
+| **RELACAO_PIB_ESPORTE**    | REGIAO               | STRING  | Região do Brasil (Norte, Nordeste, etc.)                                 |
+| **RELACAO_PIB_ESPORTE**    | ANO                  | INT     | Ano de referência                                                        |
+| **RELACAO_PIB_ESPORTE**    | TOTAL_PONTOS         | FLOAT   | Soma de pontos esportivos por região                                     |
+| **RELACAO_PIB_ESPORTE**    | TOTAL_PIB            | FLOAT   | Soma do PIB regional em R$ milhões                                       |
+| **RELACAO_PIB_ESPORTE**    | PONTOS_POR_PIB       | FLOAT   | Razão entre desempenho esportivo e PIB (TOTAL_PONTOS/TOTAL_PIB)          |
+| **MIGRACAO_ESTADUAL**      | ESTADO               | STRING  | Nome completo do estado                                                  |
+| **MIGRACAO_ESTADUAL**      | SIGLA                | STRING  | Sigla da UF                                                              |
+| **MIGRACAO_ESTADUAL**      | REGIAO               | STRING  | Região geográfica                                                        |
+| **MIGRACAO_ESTADUAL**      | SALDO_MIGRATORIO_MEDIO | FLOAT | Média anual do saldo migratório (entradas - saídas)                      |
+| **MIGRACAO_ESTADUAL**      | ANOS_ATRATOR         | INT     | Quantidade de anos com saldo migratório positivo                         |
+
+#### Tabelas Replicadas da Silver para Gold
+| Tabela          | Principais Campos Mantidos           | Observações                          |
+|-----------------|---------------------------------------|--------------------------------------|
+| **DESEMPREGO**  | ANO, ESTADO, VALOR_TOTAL              | Consolidação trimestral → anual      |
+| **PIB**         | ANO, ESTADO, VALOR_PIB                | Valores em R$ atualizados            |
+| **BRASILEIRO**  | ANO, CLUBE, ESTADO, SERIE, POSICAO    | Dados padronizados                   |
+| **SIGLAS_ESTADO**| ESTADO, SIGLA, REGIAO                | Tabela de dimensão geográfica        |
+
+
 
 # Análise do Desempenho dos Estados no Campeonato Brasileiro
 
