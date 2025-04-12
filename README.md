@@ -198,6 +198,30 @@ Para responder esta pergunta, criei um sistema de pontuação que:
 ![newplot (1)](https://github.com/user-attachments/assets/d14fd9af-5c4f-4b3e-8483-969c8ff373bf)
 
 
+**1. Hegemonia Absoluta de São Paulo**  
+- **✅ Destaque:** Acumulou **>5.000 pontos** (mais que o dobro do 2º colocado)  
+- **📊 Representatividade:** Responsável por **~40%** do total de pontos dos 5 maiores estados  
+- **🏆 Fator de Dominância:**  
+  - Possui 3x mais clubes na Série A que a média dos outros estados  
+  - Média de **85 pontos/clube** (2ª melhor eficiência)  
+
+**2. Rio de Janeiro - Vice-Liderança Isolada**  
+- **🔄 Dinâmica:** ~3.000 pontos (60% do líder SP)  
+- **🔍 Curiosidade:** Dependência de 2-3 clubes (Flamengo, Fluminense, Vasco)  
+
+**3. Minas Gerais - Crescimento Sólido**  
+- **🤝 Balancedo:** Boa distribuição entre Série A e B  
+
+**4. Rio Grande do Sul - Estabilidade**  
+- **⚖️ Característica:** Pontuação consistente (variação <10% entre anos)  
+- **🎯 Eficiência:** Melhor média pontos/clube (**90 pontos**)  
+- **🛡️ Fator:** Grêmio e Inter sempre no top 10 da Série A  
+
+**5. Paraná - Surpresa Positiva**  
+- **🚀 Crescimento:** Único estado do Top 5 com aumento anual >15%  
+- **💡 Diferencial:** Athletico-PR como motor do crescimento  
+
+
 ![newplot (2)](https://github.com/user-attachments/assets/b45e7d39-8f3a-4fd6-bbd2-45b3088bb872)
 
 
