@@ -342,6 +342,7 @@ Quanto à relação entre futebol e economia, os resultados foram mais complexos
 
 As dificuldades técnicas foram parte importante do processo de aprendizagem. Ao trabalhar com o Databricks, precisei superar uma curva de aprendizado íngreme - desde a configuração inicial dos clusters até a otimização das consultas Spark. Com o GitHub, o desafio foi estabelecer um fluxo de trabalho eficiente para versionamento em um projeto de análise de dados. E com o Plotly, descobri que criar visualizações verdadeiramente eficazes exige muito mais do que simplesmente plotar gráficos - envolve um cuidadoso trabalho de seleção de cores, hierarquia visual e design de informação.
 
+Apesar das inúmeras dificuldades enfrentadas durante o desenvolvimento deste projeto — desde a complexidade na integração de bases de dados heterogêneas até a limitação temporal para análises mais aprofundadas — conseguimos extrair relações significativas entre desempenho esportivo, indicadores econômicos e padrões migratórios. No entanto, reconhecemos que algumas métricas críticas ficaram pendentes. 
 
 O projeto me mostrou como a análise de dados vai além de simplesmente executar códigos e fórmulas. Requer uma constante postura crítica, capacidade de questionar pressupostos e flexibilidade para adaptar abordagens quando os dados revelam padrões inesperados. A principal lição que levo é que os números por si só não contam a história completa - cabe ao analista interpretá-los dentro de um contexto social, econômico e histórico mais amplo.
 
@@ -378,16 +379,13 @@ Variação Explicada	68%
 - BA: 7º em PIB mas 9º em desempenho  
 + RS: 5º em PIB mas 3º em pontos (eficiência institucional)
 3. Padrões de Migração Interestadual
-❓ Quais estados são atratores/emissores líquidos de população?
+❓ Quais estados possui maior quantidade de emigração líquidos de população?
 
-🗺️ Ranking Crítico:
-
-Categoria	Estados (Exemplo)	Estatística-Chave
-Maior Êxodo	BA, SP	-652k/ano (SP = 1.66% população)
-Atração Moderada	SC, GO	+89k/ano (agronegócio +18%)
-Surpresa	RO, RR	Saldo positivo em 3 dos 5 anos
-💡 Fator Decisivo:
-81% dos migrantes são responsáveis por famílias (25-45 anos).
+| Bahia | -353.7 mil | 2.88% | 1 |
+| Minas Gerais | -305.5 mil | 1.68% | 1 |
+| São Paulo | -652.1 mil | 1.66% | 1 |
+| Maranhão | -263.3 mil | 3.81% | 0 |
+| Pará | -261.5 mil | 3.19% | 0 |
 
 4. Lições Aprendidas
 ⚠️ O que os dados desafiaram?
