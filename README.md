@@ -356,7 +356,7 @@ O projeto me mostrou como a análise de dados vai além de simplesmente executar
 - **Eficiência do RS**: Melhor média por clube (90 pontos)  
 
 📊 **Método**:  
-```python
+
 # Sistema de pontuação ponderada
 pontos_serie_a = posição * 6  
 pontos_serie_b = posição * 1
