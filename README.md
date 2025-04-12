@@ -225,5 +225,26 @@ Para responder esta pergunta, criei um sistema de pontuação que:
 ![newplot (2)](https://github.com/user-attachments/assets/b45e7d39-8f3a-4fd6-bbd2-45b3088bb872)
 
 
+> Como a economia regional (PIB) influencia o desempenho coletivo dos estados no Campeonato Brasileiro das Séries A e B, considerando a evolução temporal desta relação?
 
+# 📊 Análise da Relação PIB x Desempenho Esportivo
+
+## 🖼️ **Primeira Impressão do Gráfico**
+Quando visualizei inicialmente o gráfico de **Pontos Esportivos vs PIB Regional**, confesso que não identifiquei um padrão claro à primeira vista. Os pontos pareciam dispersos, sem uma tendência evidente. 
+
+**Problemas na Visualização:**
+1. Escala muito ampla (PIB varia de milhões a bilhões)
+2. Sobreposição de regiões com realidades distintas
+3. Dificuldade em perceber a relação direta
+
+## 🔍 **Surpresa Estatística**
+Porém, ao calcular a correlação, encontrei um valor de **0.83**, o que revelou:
+
+![newplot (4)](https://github.com/user-attachments/assets/ea0f9401-b9af-4771-bfa8-0febe2896ea5)
+
+
+🤔 Por Que o Gráfico Engana?
+Fator	Explicação	Solução
+Efeito de Agregação Regional	Diferentes tamanhos de economia distorcem a escala	Usar escala logarítmica
+Outliers Extremos	Sudeste domina absoluto (75% dos pontos)	Separar por regiões
 
