@@ -226,7 +226,31 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 # Análise do Desempenho dos Estados no Campeonato Brasileiro
 
 ## Pergunta de Pesquisa
-**Como evoluiu o desempenho dos estados brasileiros no Campeonato Brasileiro (considerando Séries A e B) ao longo dos anos, considerando não apenas a quantidade de times mas também suas posições finais?**
+🏆 Análise de Desempenho dos Clubes no Campeonato Brasileiro
+Questão de Análise
+Quais são os 10 clubes que mais pontuaram no ranking geral do Campeonato Brasileiro no período analisado, considerando tanto a Série A quanto a Série B?
+A pontuação é calculada com base na posição dos clubes nas Séries A e B, da seguinte forma:
+
+Série A: (20 - posição + 1) × 6 pontos
+
+Série B: (20 - posição + 1) × 1 ponto
+Apenas as 20 primeiras posições de cada série foram consideradas.
+
+|🥇 Clube	|🏙️ Estado|	🔢 Pontos Totais|
+|-----------------|--------------------|--------------------------------------|
+ATLÉTICO-MG	| MG |	1188|
+|FLAMENGO |	RJ |	1182|
+|PALMEIRAS	| SP |	1148|
+|CORINTHIANS	| SP |	1092|
+|GRÊMIO	| RS |	1087|
+|SÃO PAULO |	SP |	1062|
+|INTERNACIONAL |	RS |	1003|
+|SANTOS |	SP |	962|
+|FLUMINENSE	| RJ |	900|
+|BOTAFOGO |	RJ |	797|
+
+
+## Como evoluiu o desempenho dos estados brasileiros no Campeonato Brasileiro (considerando Séries A e B) ao longo dos anos, considerando não apenas a quantidade de times mas também suas posições finais?**
 
 ## Metodologia
 Para responder esta pergunta, criei um sistema de pontuação que:
