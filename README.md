@@ -54,14 +54,14 @@ Para este projeto, implementamos um pipeline completo no Databricks organizado e
 ####2.1 Arquitetura em Camadas
 Implementamos um pipeline de dados no Databricks seguindo o padrão medallion architecture:
 
-1. **Camada Bronze**  
+1. **Camada Bronze 🥉**  
    - Ingestão de dados brutos das fontes originais:  
      - Dados socioeconômicos do IBGE (PIB, desemprego) via API REST  
      - Dados de desempenho de clubes de futebol em planilhas Excel  
    - Armazenamento em Delta Lake mantendo:  
      - Estrutura original dos dados  
 
-2. **Camada Silver**  
+2. **Camada Silver 🥈**  
    - Modelagem dimensional em esquema estrela contendo:  
      - **Fato principal**: Métricas econômicas e demográficas por UF/ano  
      - **Dimensões**:  
@@ -72,7 +72,7 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
      - Padronização de chaves (ex.: Sigla IBGE para UFs)  
      - Tratamento de dados faltantes (interpolação regional)  
     
-3. **Camada Gold**  
+3. **Camada Gold 🥇**  
    - Tabelas analíticas otimizadas para:  
      - Correlação entre indicadores econômicos e desempenho esportivo  
      - Identificação de padrões de migração interna  
