@@ -298,7 +298,7 @@ Para responder esta pergunta, criei um sistema de pontuação que:
 ![newplot (2)](https://github.com/user-attachments/assets/b45e7d39-8f3a-4fd6-bbd2-45b3088bb872)
 
 
-> Como a economia regional (PIB) influencia o desempenho coletivo dos estados no Campeonato Brasileiro das Séries A e B, considerando a evolução temporal desta relação?
+> 📈 Relação entre Economia e Desempenho Esportivo, Como a economia regional (PIB estadual) influencia o desempenho coletivo dos estados no Campeonato Brasileiro das Séries A e B? Existe correlação entre o valor do PIB e a pontuação total dos clubes por estado ao longo dos anos?
 
 # 📊 Análise da Relação PIB x Desempenho Esportivo
 
