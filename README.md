@@ -252,7 +252,7 @@ ATLÉTICO-MG	| MG |	1188|
 
 ## Como evoluiu o desempenho dos estados brasileiros no Campeonato Brasileiro (considerando Séries A e B) ao longo dos anos, considerando não apenas a quantidade de times mas também suas posições finais?**
 
-## Metodologia
+## 🧪 Metodologia
 Para responder esta pergunta, criei um sistema de pontuação que:
 - Atribui mais pontos para times nas melhores posições
 - Dá peso maior para a Série A (6x) que para a Série B (1x)
@@ -369,7 +369,7 @@ Quais são os padrões de migração interestadual entre as regiões brasileiras
 Resiliência do Norte/Centro-Oeste
 ✔️ Boom do Agronegócio (+18% empregos formais)
 
-### 7 Conclusão 
+### 📝 7 Conclusão 
 ---
 Ao longo deste projeto, enfrentei desafios significativos e descobri padrões inesperados que reformularam minha compreensão sobre a dinâmica migratória brasileira e sua relação com indicadores econômicos e esportivos.
 
