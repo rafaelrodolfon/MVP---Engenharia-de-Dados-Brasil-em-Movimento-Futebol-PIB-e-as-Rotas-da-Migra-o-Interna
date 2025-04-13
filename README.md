@@ -1,8 +1,8 @@
 # MVP---Engenharia-de-Dados-Brasil-em-Movimento-Futebol-PIB-e-as-Rotas-da-Migra-o-Interna
 
-> #### link:  https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2356556570563440/970768376428962/4907951873710997/latest.html
+> #### 🔗 link:  https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2356556570563440/970768376428962/4907951873710997/latest.html
 
- Objetivo:
+  🎯Objetivo:
  ---
  Este trabalho tem como função apresentar fatores socioeconômicos que podem servir como indicadores para a formulação de políticas públicas mais eficazes, com foco na promoção de maior equidade no desenvolvimento entre os estados brasileiros. A proposta é mitigar as desigualdades regionais.
  
@@ -13,7 +13,7 @@
 
 
 
-## 1. Visão Geral
+## 🧭 1. Visão Geral do Projeto
 ---
 
 Este documento descreve o pipeline de ingestão de dados do projeto, incluindo:
@@ -33,7 +33,7 @@ Este documento descreve o pipeline de ingestão de dados do projeto, incluindo:
 ---
 
 
-| Dados       | Site     | Fonte de Dados     | Tabela |  Forma de Extração       |
+| 📊 **Dados**  | 🔗 **Site**      | 🏛️ **Fonte de Dados**  | 🗂️ **Tabela**  | ⚙️ **Forma de Extração**  |            
 |-------------------|----------------|-------------|-------------|-------------|
 | Industria  | apisidra.ibge.gov.br | IBGE       | 5938       | API       |
 | PIB  | apisidra.ibge.gov.br | IBGE       | 5938       | API       |
@@ -45,7 +45,7 @@ Este documento descreve o pipeline de ingestão de dados do projeto, incluindo:
 
 
 
-### 2. Modelagem
+### 🧩2. Modelagem de Dados 
 --- 
 Para este projeto, implementamos um pipeline completo no Databricks organizado em três camadas essenciais. Na camada Bronze, ingerimos dados brutos, armazenando tudo em Data Lake para preservar a origem. Na camada Silver, transformamos esses dados em um modelo estrela, criando uma tabela de fatos com métricas demográficas, relacionadas a dimensões geográficas (UF), temporais e esportivas, após processos rigorosos de padronização, tratamento de valores inconsistentes e junção inteligente entre fontes. Finalmente, na camada Gold, consolidamos tabelas analíticas que respondem diretamente ao objetivo do projeto, revelando correlações entre desempenho esportivo e indicadores econômicos, além de padrões de migração interna vinculados a oportunidades regionais
 
