@@ -87,9 +87,9 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 #### 2.1 Catálogo de Dados
 ---
 
-#### 2.1.1 Camada BRONZE
+#### 🥉 2.1.1 Camada BRONZE
 
-| Tabela       | Campo       | Tipo    | Descrição                                        |
+|📊 Tabela |	🔠 Campo |	🔤 Tipo |	📖 Descrição                  |
 |--------------|-------------|---------|--------------------------------------------------|
 | **INDUSTRIA**| MES_ANO     | INT     | Código do mês/ano no formato YYYYMM              |
 | **INDUSTRIA**| ESTADO      | STRING  | Nome completo da Unidade da Federação            |
@@ -125,9 +125,9 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 
 
 
-#### 2.1.2 Camada SILVER
+#### 🥈 2.1.2 Camada SILVER
 
-| Tabela          | Campo        | Tipo    | Descrição                                         |
+|📊 Tabela |	🔠 Campo |	🔤 Tipo |	📖 Descrição                  |
 |-----------------|--------------|---------|---------------------------------------------------|
 | **DESEMPREGO**  | ANO          | INT     | Ano extraído do código do trimestre (YYYY)        |
 | **DESEMPREGO**  | ESTADO       | STRING  | Nome completo da Unidade da Federação             |
@@ -156,7 +156,7 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 ---
 
 
-| Tabela       | Campo       | Tipo    | Descrição                                      |
+|📊 Tabela |	🔠 Campo |	🔤 Tipo |	📖 Descrição                  |
 |--------------|-------------|---------|------------------------------------------------|
 | **NASCIMENTOS**| ANO        | INT     | Ano de referência do registro                 |
 | **NASCIMENTOS**| ESTADO     | STRING  | Unidade da Federação onde ocorreu o nascimento|
@@ -187,9 +187,9 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 | **MIGRACAO_ESTADUAL** | PERCENTUAL_MIGRACAO  | DOUBLE    | Percentual da migração líquida em relação à população anterior (em %)          |
 
 
-#### 2.1.3 Camada GOLD
+#### 🥇 2.1.3 Camada GOLD
 
-| Tabela                     | Campo                | Tipo    | Descrição                                                                 |
+|📊 Tabela |	🔠 Campo |	🔤 Tipo |	📖 Descrição                  |
 |----------------------------|----------------------|---------|---------------------------------------------------------------------------|
 | **PONTUACAO_ESTADOS**      | ANO                  | INT     | Ano de referência do campeonato                                          |
 | **PONTUACAO_ESTADOS**      | ESTADO               | STRING  | Sigla da Unidade da Federação (2 caracteres)                             |
