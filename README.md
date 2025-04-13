@@ -174,6 +174,17 @@ Implementamos um pipeline de dados no Databricks seguindo o padrão medallion ar
 | **OBITOS**    | VALOR      | DOUBLE  | Quantidade de óbitos registrados              |
 | **OBITOS**    | SEXO       | STRING  | Sexo do falecido                              |
 | **OBITOS**    | ESTADO_CIVIL| STRING | Estado civil do falecido                      |
+| **MIGRACAO_ESTADUAL** | ANO                  | INT       | Ano de referência da análise                                                   |
+| **MIGRACAO_ESTADUAL** | ESTADO               | STRING    | Nome da Unidade da Federação                                                   |
+| **MIGRACAO_ESTADUAL** | SIGLA                | STRING    | Sigla da Unidade da Federação                                                  |
+| **MIGRACAO_ESTADUAL** | POPULACAO_ATUAL      | INT       | População da UF no ano atual                                                   |
+| **MIGRACAO_ESTADUAL** | POPULACAO_ANTERIOR   | INT       | População da UF no ano anterior                                                |
+| **MIGRACAO_ESTADUAL** | NASCIMENTOS          | INT       | Quantidade de nascimentos registrados na UF no ano                             |
+| **MIGRACAO_ESTADUAL** | OBITOS               | DOUBLE    | Quantidade de óbitos registrados na UF no ano                                  |
+| **MIGRACAO_ESTADUAL** | CRESCIMENTO_NATURAL  | DOUBLE    | Diferença entre nascimentos e óbitos (nascimentos - óbitos)                    |
+| **MIGRACAO_ESTADUAL** | MIGRACAO_LIQUIDA     | DOUBLE    | Diferença entre o crescimento populacional total e o crescimento natural       |
+| **MIGRACAO_ESTADUAL** | TIPO_FLUXO           | STRING    | Classificação da migração líquida: ‘Entrada líquida’, ‘Saída líquida’ ou ‘Equilíbrio’ |
+| **MIGRACAO_ESTADUAL** | PERCENTUAL_MIGRACAO  | DOUBLE    | Percentual da migração líquida em relação à população anterior (em %)          |
 
 
 #### 2.1.3 Camada GOLD
