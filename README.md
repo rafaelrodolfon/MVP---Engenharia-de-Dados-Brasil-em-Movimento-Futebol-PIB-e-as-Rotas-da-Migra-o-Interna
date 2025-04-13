@@ -322,8 +322,7 @@ Efeito de Agregação Regional	Diferentes tamanhos de economia distorcem a escal
 Outliers Extremos	Sudeste domina absoluto (75% dos pontos)	Separar por regiões
 
 
-**🧭 Dinâmica da Migração Interestadual no Brasil
-Pergunta de Análise
+**🧭 Dinâmica da Migração Interestadual no Brasil --
 Quais são os padrões de migração interestadual entre as regiões brasileiras ao longo do tempo? Quais estados se destacam como os principais polos atratores (com maior entrada líquida de população) e emissores (com maior saída líquida)?**
 ---
 
