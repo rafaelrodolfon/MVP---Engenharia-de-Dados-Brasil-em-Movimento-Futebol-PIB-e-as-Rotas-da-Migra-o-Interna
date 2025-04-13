@@ -368,6 +368,79 @@ Quais são os padrões de migração interestadual entre as regiões brasileiras
 
 Resiliência do Norte/Centro-Oeste
 ✔️ Boom do Agronegócio (+18% empregos formais)
+---
+### 📉 DESEMPREGO Existe uma correlação significativa entre o Produto Interno Bruto (PIB) e os níveis de desemprego nos estados brasileiros ao longo do período de 2012 a 2024?
+Para investigar essa relação, pode-se analisar a proporção da taxa de desemprego em relação ao PIB de cada estado, utilizando o indicador
+---
+📊 Análise da Correlação entre PIB e Desemprego (2012–2024)
+Foi realizada uma investigação sobre a relação entre o Produto Interno Bruto (PIB) e a taxa de desemprego nos estados brasileiros, considerando o período de 2012 a 2024. A métrica utilizada foi a razão entre o desemprego e o PIB, calculada da seguinte forma:
+
+(Taxa de Desemprego × 100) / PIB
+
+Essa métrica visava indicar a proporção do desemprego em relação à atividade econômica do estado.
+
+✅ Resultados:
+A correlação encontrada entre o PIB e a taxa de desemprego foi de 0,8846, o que indica uma forte relação estatística entre as duas variáveis ao longo do tempo.
+
+No entanto, ao analisar a evolução do índice calculado, observou-se que os valores diminuíam continuamente, mesmo em cenários de aumento do desemprego.
+
+⚠️ Limitações da Métrica:
+Essa inconsistência revelou um viés inflacionário da métrica. Como o PIB nominal tende a crescer ano após ano, especialmente em um contexto inflacionário, a razão desemprego/PIB é artificialmente reduzida, mascarando flutuações reais no mercado de trabalho.
+
+
+![newplot](https://github.com/user-attachments/assets/da6d1fb2-56cb-4fea-9dcf-d70d0aa88289)
+
+Houve variação significativa no desemprego entre os sexos nos estados brasileiros entre os anos de 2012 e 2024? Compare os dados por sexo e estado, analisando se o impacto do desemprego apresenta diferenças relevantes ao longo desse período?
+![newplot (2)](https://github.com/user-attachments/assets/c2b307ce-868c-4bc9-8d39-61047411ca89)    ![newplot (1)](https://github.com/user-attachments/assets/545b681e-52f5-4074-95fb-f3d668793594)
+
+
+
+
+
+📊 Análise de Desemprego por Sexo (2012 vs. 2024)
+Os gráficos gerados a partir dos dados do IBGE para os anos de 2012 e 2024 não indicam variações significativas nas taxas de desemprego entre homens e mulheres ao longo do período analisado, em nível estadual.
+
+Contudo, é importante destacar uma limitação metodológica dos dados utilizados: o IBGE considera como desempregado apenas quem está ativamente buscando emprego. Isso exclui uma parcela significativa da população que:
+
+Está fora da força de trabalho (não busca emprego por desânimo ou outros motivos);
+
+Vive em condições de subemprego (ocupações precárias ou informais com baixa remuneração e instabilidade).
+
+Essas condições não são refletidas nas estatísticas oficiais de desemprego, o que pode mascarar disparidades reais entre os sexos e entre diferentes estados, especialmente em regiões com maior informalidade ou vulnerabilidade social.
+
+📌 Conclusão: Embora os dados não apontem diferenças relevantes entre os sexos, é necessário cautela na interpretação, pois a métrica oficial de desemprego não contempla integralmente a complexidade do mercado de trabalho brasileiro.
+
+ ### Quais foram os estados brasileiros com maior número de desempregados em cada ano analisado?
+
+🧠 Análise: Estados com Maior Número de Desempregados por Ano
+A tabela a seguir apresenta os estados brasileiros que registraram o maior número de desempregados em cada ano analisado:
+
+
+| 🗓️ ANO	  | 🗺️ ESTADO  | 👥VALOR_TOTAL |
+|------|------------|-------------|
+| 2012 | São Paulo  | 139.399     |
+| 2013 | São Paulo  | 141.007     |
+| 2014 | São Paulo  | 143.093     |
+| 2015 | São Paulo  | 144.534     |
+| 2016 | São Paulo  | 145.938     |
+| 2017 | São Paulo  | 146.884     |
+| 2018 | São Paulo  | 148.310     |
+| 2019 | São Paulo  | 150.173     |
+| 2020 | São Paulo  | 37.705      |
+| 2022 | São Paulo  | 116.337     |
+| 2023 | São Paulo  | 156.420     |
+| 2024 | São Paulo  | 158.129     |
+
+
+🔍 Conclusão
+O estado de São Paulo lidera o número absoluto de desempregados em todos os anos analisados. Contudo, esse resultado está diretamente relacionado à sua alta concentração populacional, sendo o estado mais populoso do país.
+
+👉 Recomendação:
+Para uma análise mais justa e comparativa entre os estados, é necessário calcular o percentual de desemprego em relação à população economicamente ativa de cada UF. Isso permitiria identificar proporcionalmente quais estados enfrentam maiores desafios no mercado de trabalho.
+
+📝 Observação:
+Os dados de 2021 não foram apresentados na série fornecida. Caso existam, sua inclusão pode enriquecer ainda mais a análise histórica.
+
 
 ### 📝 7 Conclusão 
 ---
@@ -379,7 +452,7 @@ Quanto à relação entre futebol e economia, os resultados foram mais complexos
 
 As dificuldades técnicas foram parte importante do processo de aprendizagem. Ao trabalhar com o Databricks, precisei superar uma curva de aprendizado íngreme - desde a configuração inicial dos clusters até a otimização das consultas Spark. Com o GitHub, o desafio foi estabelecer um fluxo de trabalho eficiente para versionamento em um projeto de análise de dados. E com o Plotly, descobri que criar visualizações verdadeiramente eficazes exige muito mais do que simplesmente plotar gráficos - envolve um cuidadoso trabalho de seleção de cores, hierarquia visual e design de informação.
 
-Apesar das inúmeras dificuldades enfrentadas durante o desenvolvimento deste projeto — desde a complexidade na integração de bases de dados heterogêneas até a limitação temporal para análises mais aprofundadas — conseguimos extrair relações significativas entre desempenho esportivo, indicadores econômicos e padrões migratórios. No entanto, reconhecemos que algumas métricas críticas ficaram pendentes. 
+Apesar das inúmeras dificuldades enfrentadas durante o desenvolvimento deste projeto, como a complexidade na integração de bases de dados heterogêneas e a limitação de tempo para análises mais aprofundadas, conseguimos extrair relações significativas entre desempenho esportivo, indicadores econômicos e padrões migratórios. No entanto, reconhecemos que algumas métricas críticas ficaram pendentes e precisam de mais análises futuras. A questão sobre o desemprego, por exemplo, ainda exige um exame mais detalhado, principalmente ao considerar as variações percentuais em vez dos valores absolutos, especialmente no contexto de estados com grande população, como São Paulo.
 
 O projeto me mostrou como a análise de dados vai além de simplesmente executar códigos e fórmulas. Requer uma constante postura crítica, capacidade de questionar pressupostos e flexibilidade para adaptar abordagens quando os dados revelam padrões inesperados. A principal lição que levo é que os números por si só não contam a história completa - cabe ao analista interpretá-los dentro de um contexto social, econômico e histórico mais amplo.
 
